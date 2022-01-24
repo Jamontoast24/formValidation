@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li class="title">Console Giveaway</li>
+      </ul>
+    </nav>
+
+    <div class="introDescription">
+      <p>
+        By creating your account you will automatically be signed up to our
+        monthly console giveaway !
+      </p>
+    </div>
+
+    <div class="container">
+      <form class="userForm" onsubmit="return false">
+        <div class="card">
+          <label for="firstName">First Name:</label><br />
+          <input type="text" class="fName" placeholder="name" /><br />
+          <p class="errTxt"></p>
+        </div>
+
+        <div class="card">
+          <label for="lastName">Last Name:</label><br />
+          <input type="text" class="sName" placeholder="last name" /><br />
+          <p class="errTxtTwo"></p>
+        </div>
+
+        <div class="card">
+          <label for="userName">Username:</label><br />
+          <input type="text" class="uName" placeholder="username" /><br />
+          <p class="errTxtThree"></p>
+        </div>
+
+        <div class="card">
+          <label for="userName">Email Adress:</label><br />
+          <input type="text" class="eAdress" placeholder="email" /><br />
+          <p class="errTxtFour"></p>
+        </div>
+
+        <button class="validateBtn">Validate !</button>
+      </form>
+
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <!-- <form>
+        <label for="ash"
+          >This is the question ? :
+          <input type="radio" id="ash" name="character" value="ash" />duck
+          <input type="radio" id="ash" name="character" value="ash" />chicken
+          <input type="radio" id="ash" name="character" value="ash" />turkey
+        </label>
+      </form>
+
+      <form>
+        <label for="ash"
+          >This is the question ? :
+          <input type="radio" id="ash" name="character" value="ash" />duck
+          <input type="radio" id="ash" name="character" value="ash" />chicken
+          <input type="radio" id="ash" name="character" value="ash" />turkey
+        </label>
+      </form> -->
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
